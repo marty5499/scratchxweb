@@ -603,8 +603,6 @@
     url: 'http://marty5499.github.io/scratchxweb'
   };
 
-  ScratchExtensions.register('Arduino', descriptor, ext, {
-    type: 'serial'
-  });
+  ScratchExtensions.register('Arduino', descriptor, ext);
 
 })({});
